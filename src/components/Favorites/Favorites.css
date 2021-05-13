@@ -1,0 +1,35 @@
+/* * {
+    border: 1px red solid;
+} */
+
+.favorites {
+    width: 50%;
+}
+
+.favorites__title {
+    margin: 0;
+    line-height: 40px;
+    font-size: 20px;
+    font-weight: normal;
+    border-bottom: 4px solid black;
+}
+
+.favorites__list {
+    padding: 0;
+    margin: 0;
+    list-style: none;
+}
+
+.favorites__item {
+    display: flex;
+    border-bottom: 1px solid lightgray;
+    padding: 4px 0;
+}
+
+.favorites__item-description > p {
+    margin: 0;
+}
+
+.favorites__btn {
+    cursor: pointer;
+}
